@@ -1,0 +1,16 @@
+{
+    "name": "atakankorkmaz/linguist",
+    "version": "dev-master",
+    "autoload": {
+        "psr-4": {
+            "Atakankorkmaz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Atakan Korkmaz",
+            "email": "63395703+atakankrkmz@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
