@@ -9,11 +9,11 @@ use RecursiveIteratorIterator;
 
 class Linguist
 {
-    public $path;
+    public $path = "";
 
     public $extensions = array();
 
-    public $excludedWords;
+    public $excludedWords = array();
 
     public function __construct(string $path)
     {
