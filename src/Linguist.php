@@ -63,7 +63,6 @@ class Linguist
                 }
             }
         }
-        dd($this->extensions);
-        return ['php' => 50];
+        return $this->extensions;
     }
 }
